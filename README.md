@@ -2,6 +2,10 @@
 
 My personal dotfiles for Windows 11 setup.
 
+## 🎬 Preview
+
+<video src="https://github.com/Zi-exa/dotfiles/raw/master/ss/rice-preview.mp4" controls autoplay muted loop></video>
+
 ## 📸 Screenshot
 
 ![Desktop Setup](ss/screenshot.png)
