@@ -10,9 +10,14 @@ My personal dotfiles for Windows 11 setup.
 
 ![Desktop Setup](ss/screenshot.png)
 
-### 🌙 [Zen Browser Config →](https://github.com/Zi-exa/zen-browser)
+### �️ [VS Code Island Catppuccin Mocha Config →](https://github.com/Zi-exa/vscode-island-catputtcin-mocca)
+
+![VS Code Island Catppuccin Mocha](ss/vscode-island-catputtcin-mocca.png)
+
+### �🌙 [Zen Browser Config →](https://github.com/Zi-exa/zen-browser)
 
 ![Zen Browser](ss/zen-browser.png)
+
 
 ## ⚙️ What's Included
 
