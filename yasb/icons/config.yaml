@@ -1,0 +1,276 @@
+# This is default and very simple configuration file for Yasb. 
+# For more information about configuration options, please visit the Wiki https://github.com/amnweb/yasb/wiki
+watch_stylesheet: true
+watch_config: true
+debug: false
+komorebi:
+  start_command: "komorebic start --whkd"
+  stop_command: "komorebic stop --whkd"
+  reload_command: "komorebic stop --whkd && komorebic start --whkd"
+bars:
+  top-bar:
+    enabled: true
+    screens: ["*"]
+    class_name: "yasb-bar"
+    alignment:
+      position: "top"
+      center: false
+    animation:
+      enabled: true
+      duration: 1000
+    blur_effect:
+      enabled: true
+      acrylic: false
+      dark_mode: true
+      round_corners: true
+      round_corners_type: "normal"
+      border_color: "System"
+    window_flags:
+      always_on_top: false
+      windows_app_bar: true
+    dimensions:
+      width: "100%"
+      height: 34
+    padding:
+      top: 7
+      left: 260
+      bottom: -1
+      right: 260
+    widgets:
+      left: ["komorebi_workspaces"]
+      center: ["clock"]
+      right: ["wallpapers","divider","brightness","divider","volume","divider","memory","divider","apps"]
+
+  bottom-bar:
+    enabled: true
+    screens: ["*"]
+    class_name: "yasb-bottom-bar"
+    alignment:
+      position: "bottom"
+      center: false
+    animation:
+      enabled: true
+      duration: 1200
+    blur_effect:
+      enabled: false
+      acrylic: false
+      dark_mode: true
+      round_corners: true
+      round_corners_type: "normal"
+      border_color: "System"
+    window_flags:
+      always_on_top: false
+      windows_app_bar: true
+    dimensions:
+      width: "100%"
+      height: 60
+    padding:
+      top: -4
+      left: 260
+      bottom: 10
+      right: 260
+    widgets:
+      left: []
+      center: ["taskbar"]
+      right: []
+widgets:
+  clock:
+    type: "yasb.clock.ClockWidget"
+    options:
+      label: "{%H:%M %b %d}"
+      label_alt: "{%H:%M %b %d}"
+      timezones: []
+  komorebi_workspaces:
+    type: "komorebi.workspaces.WorkspaceWidget"
+    options:
+      label_offline: "\u23fc Offline"
+      label_workspace_btn: "\udb85\ude5d"
+      label_workspace_active_btn: "\udb82\udfaf"
+      label_workspace_populated_btn: "\udb80\udea0"
+      label_default_name: "{index}"
+      label_zero_index: false
+      hide_empty_workspaces: false
+      hide_if_offline: true
+      animation: false
+      container_padding:
+        top: 0
+        left: 8
+        bottom: 0
+        right: 8
+  komorebi_active_layout:
+    type: "komorebi.active_layout.ActiveLayoutWidget"
+    options:
+      hide_if_offline: true
+      label: "{icon}"
+      layouts:
+        [
+          "bsp",
+          "columns",
+          "rows",
+          "grid",
+          "vertical_stack",
+          "horizontal_stack",
+          "ultrawide_vertical_stack",
+          "right_main_vertical_stack",
+        ]
+      layout_icons:
+        bsp: "BSP"
+        columns: "COLS"
+        rows: "ROWS"
+        grid: "GRID"
+        vertical_stack: "V-STACK"
+        horizontal_stack: "H-STACK"
+        ultrawide_vertical_stack: "W-STACK"
+        right_main_vertical_stack: "RMV-STACK"
+        monocle: "MONOCLE"
+        maximised: "MAX"
+        floating: "FLOATING"
+        paused: "PAUSED"
+      container_padding:
+        top: 0
+        left: 8
+        bottom: 0
+        right: 8
+      callbacks:
+        on_left: "next_layout"
+        on_middle: "toggle_monocle"
+        on_right: "prev_layout"
+  volume:
+    type: "yasb.volume.VolumeWidget"
+    options:
+      label: "<span>{icon}</span> {level}"
+      label_alt: "{volume}"
+      volume_icons:
+        - "\ueee8"  # Icon for muted
+        - "\uf026"  # Icon for 0-10% volume
+        - "\uf027"  # Icon for 11-30% volume
+        - "\uf027"  # Icon for 31-60% volume
+        - "\uf028"  # Icon for 61-100% volume
+      audio_menu:
+        blur: True
+        round_corners: True
+        round_corners_type: 'normal'
+        border_color: 'System'
+        alignment: 'right'
+        direction: 'down'
+        distance: 6
+      callbacks:
+        on_left: "toggle_volume_menu"
+        on_right: "toggle_mute"
+  divider:
+    type: "yasb.custom.CustomWidget"
+    options:
+      label: "|"
+      label_alt: "|"
+      class_name: "div-widget"
+  wallpapers:
+    type: "yasb.wallpapers.WallpapersWidget"
+    options:
+      label: "<span>\udb83\ude09</span> Wallpapers"
+      image_path: "C:\\Users\\khabsi\\Pictures\\Wallpapers"
+      change_automatically: false
+      update_interval: 60 
+      gallery:
+          enabled: true
+          blur: true
+          image_width: 220
+          image_per_page: 8
+          show_buttons: True
+          orientation: "portrait"
+          image_spacing: 8
+          lazy_load: true
+          lazy_load_delay: 80
+          lazy_load_fadein: 400
+          image_corner_radius: 20
+          enable_cache: true
+  brightness:
+    type: "yasb.brightness.BrightnessWidget"
+    options:
+     label: "<span>{icon}</span> {percent}%"
+     label_alt: "Brightness {percent}%"
+     tooltip: true
+     hide_unsupported: true
+     brightness_toggle_level: [0, 50, 100]
+     auto_light: false
+     auto_light_icon: "\udb80\udce1"
+     auto_light_night_level: 35
+     auto_light_night_start_time: "19:00"
+     auto_light_night_end_time: "06:45"
+     auto_light_day_level: 75
+     brightness_icons: [
+       "\uf522",  # Icon for 0-25% brightness
+       "\uf522",  # Icon for 26-50% brightness
+       "\uf522",  # Icon for 51-75% brightness
+       "\uf522"   # Icon for 76-100% brightness
+     ]
+     brightness_menu:
+       blur: true
+       round_corners: true
+       round_corners_type: "normal"
+       border_color: "System"
+       alignment: "right"
+       direction: "down"
+       distance: 6
+     callbacks:
+       on_left: "toggle_label"
+     container_padding:
+       top: 0
+       left: 8
+       bottom: 0
+       right: 8
+  memory:
+    type: "yasb.memory.MemoryWidget"
+    options:
+      label: "<span>\uf4bc</span> {virtual_mem_percent}%"
+      label_alt: "<span>\uf4bc</span> VIRT: {virtual_mem_percent}% SWAP: {swap_mem_percent}%"
+      update_interval: 5000
+      callbacks:
+        on_left: "toggle_label"
+        on_middle: "do_nothing"
+        on_right: "do_nothing"
+      memory_thresholds:
+        low: 25
+        medium: 50
+        high: 90
+  network:
+    type: "yasb.wifi.WifiWidget"
+    options:
+      label: "<span>{wifi_icon}</span> {wifi_name}"
+      label_alt: "{wifi_name} {wifi_strength}%"
+      update_interval: 5000
+      callbacks:
+        on_left: "exec cmd.exe /c start ms-settings:network"
+        on_middle: "do_nothing"
+        on_right: "toggle_label"
+      wifi_icons: [
+        "\udb82\udd2e",  # Icon for 0% strength
+        "\udb82\udd1f",  # Icon for 1-20% strength
+        "\udb82\udd22",  # Icon for 21-40% strength
+        "\udb82\udd25",  # Icon for 41-80% strength
+        "\udb82\udd28"   # Icon for 81-100% strength
+      ]
+  taskbar:
+    type: "yasb.taskbar.TaskbarWidget"
+    options:
+      icon_size: 20
+  win_button:
+    type: "yasb.custom.CustomWidget"
+    options:
+      label: "\ue62a"
+      label_alt: "\ue62a"
+      class_name: "win-button-widget"
+      callbacks:
+        on_left: "exec start_menu"
+  apps:
+    type: "yasb.applications.ApplicationsWidget"
+    options:
+      label: "{data}"
+      app_list:
+        - { icon: "\uf489 pwsh", launch: "wt" }
+        # - { icon: "\uf232",launch: "C:\\Program Files\\WindowsApps\\5319275A.WhatsAppDesktop_2.2451.5.0_x64__cv1g1gvanyjgm\\WhatsApp.exe" }
+      container_padding: 
+        top: 0
+        left: 8
+        bottom: 0
+        right: 8
+

@@ -1,0 +1,6 @@
+[translucent_window]
+enable = true
+alpha = 220
+
+[title_bar]
+enable = true

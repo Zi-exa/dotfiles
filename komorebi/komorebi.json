@@ -1,0 +1,93 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/refs/heads/master/schema.json",
+  "title": "StaticConfig",
+  "description": "The `komorebi.json` static configuration file reference for `v0.1.38`",
+  "app_specific_configuration_path": "$Env:USERPROFILE/applications.json",
+  "window_hiding_behaviour": "Minimize",
+  "cross_monitor_move_behaviour": "Insert",
+  "default_workspace_padding": 14,
+  "default_container_padding": 14,
+  "border": false,
+  "border_width": 4,
+  "border_offset": -1,
+  "global_work_area_offset": {
+    "left": 0,
+    "top": 50,
+    "bottom": 48,
+    "right": 0
+  },
+  "mouse_follows_focus": false,
+  "animation": {
+    "enabled": true,
+    "duration": 600,
+    "fps": 240,
+    "style": {
+      "movement": "EaseOutBack",
+      "transparency": "Linear"
+    }
+  },
+  "transparency": true,
+  "transparency_alpha": 230,
+  "monitors": [
+    {
+      "workspaces": [
+        {
+          "name": "I",
+          "layout": "BSP"
+        },
+        {
+          "name": "II",
+          "layout": "VerticalStack"
+        },
+        {
+          "name": "III",
+          "layout": "Scrolling",
+          "layout_options": {
+            "scrolling": {
+              "columns": 1
+            }
+          },
+          "workspace_rule": [
+          {
+            "id": "Spotify.exe",
+            "kind": "Exe",
+            "matching_strategy": "Equals"
+          },
+          {
+            "id": "zen.exe",
+            "kind": "Exe",
+            "matching_strategy": "Equals"
+          },
+          {
+            "id": "Code.exe",
+            "kind": "Exe",
+            "matching_strategy": "Equals"
+          },
+          {
+            "id": "Discord.exe",
+            "kind": "Exe",
+            "matching_strategy": "Equals"
+          }
+          
+         ],
+         "initial_workspace_rules": [
+    
+        {
+          "id": "Discord.exe",
+          "kind": "Exe",
+          "matching_strategy": "Equals"
+        }
+  ]
+        },
+        {
+          "name": "IV",
+          "layout": "BSP"
+        },
+        {
+          "name": "V",
+          "layout": "BSP"
+        }
+      ]
+    }
+  ]
+}
