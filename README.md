@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🖥️ Dotfiles
 
 My personal dotfiles for Windows 11 setup.
@@ -44,14 +43,3 @@ My personal dotfiles for Windows 11 setup.
 ├── starship.toml  # Starship main config
 └── whkdrc         # Hotkey daemon config
 ```
-
-## 📥 Installation
-
-Clone the repo to your `.config` directory:
-
-```powershell
-git clone https://github.com/Zi-exa/dotfiles.git $HOME/.config
-```
-=======
-dotfiles win 11
->>>>>>> 3a1d026f4a848b701e1d9934a2c1cf26f7e67e61
