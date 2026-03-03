@@ -1,0 +1,37 @@
+19:44:39.5462+07:00 - INFO  - App.RegisterExitEvents - Session Ending
+21:14:16.2238+07:00 - INFO  - Logger.SetLogLevel - Using log level: INFO.
+21:14:16.2238+07:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+21:14:16.2238+07:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.20.2
+OS Version: 26100.4652
+IntPtr Length: 8
+x64: True
+21:14:22.3233+07:00 - INFO  - ImageLoader.InitializeAsync - Preload images cost <3747ms>
+21:14:22.3298+07:00 - INFO  - ImageLoader.InitializeAsync - Number of preload images is <150>, Images Number: 150, Unique Items 123
+21:15:23.5555+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+21:15:23.5555+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+21:15:23.5555+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+21:15:23.5555+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+21:15:24.3686+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 265 plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+21:15:24.3686+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json with response InternalServerError
+21:15:24.3686+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json with response InternalServerError
+21:15:24.3686+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json with response InternalServerError
+21:15:24.3800+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Plugin Indicator> is <44ms>
+21:15:24.3800+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <URL> is <73ms>
+21:15:24.3800+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Process Killer> is <72ms>
+21:15:24.3910+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Plugins Manager> is <144ms>
+21:15:24.3910+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <System Commands> is <138ms>
+21:15:24.3910+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Shell> is <134ms>
+21:15:24.4056+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Web Searches> is <161ms>
+21:15:24.4056+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Windows Settings> is <160ms>
+21:15:24.4208+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Playnite> is <43ms>
+21:15:26.3471+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Explorer> is <2131ms>
+21:15:26.3638+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Calculator> is <2038ms>
+21:15:27.4616+07:00 - INFO  - Main.InitAsync - Preload programs cost <27ms>
+21:15:27.4616+07:00 - INFO  - Main.InitAsync - Number of preload win32 programs <118>
+21:15:27.4616+07:00 - INFO  - Main.InitAsync - Number of preload uwps <35>
+21:15:27.9687+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Program> is <3687ms>
+21:15:29.1756+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Browser Bookmarks> is <4906ms>
+21:15:29.9586+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <GamesLauncher> is <6002ms>
+21:15:31.2930+07:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------
+21:15:31.2930+07:00 - INFO  - App.OnStartup - Startup cost <75220ms>

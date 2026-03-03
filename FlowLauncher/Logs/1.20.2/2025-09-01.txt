@@ -1,0 +1,173 @@
+11:25:18.0238+07:00 - WARN  - JsonRPCPlugin.ExecuteAsync - Empty JSON-RPC Response.
+21:43:08.0846+07:00 - INFO  - Logger.SetLogLevel - Using log level: INFO.
+21:43:08.0846+07:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+21:43:08.0846+07:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.20.2
+OS Version: 26100.4946
+IntPtr Length: 8
+x64: True
+21:43:09.8034+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+21:43:09.8460+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+21:43:09.8460+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+21:43:09.8460+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+21:43:10.2642+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 271 plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+21:43:10.2642+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json with response InternalServerError
+21:43:10.2642+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json with response InternalServerError
+21:43:10.2642+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json with response InternalServerError
+21:43:10.2642+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Plugin Indicator> is <42ms>
+21:43:10.2805+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Process Killer> is <67ms>
+21:43:10.2805+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Plugins Manager> is <147ms>
+21:43:10.2805+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <URL> is <64ms>
+21:43:10.2992+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <System Commands> is <151ms>
+21:43:10.2992+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Shell> is <137ms>
+21:43:10.3315+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Web Searches> is <178ms>
+21:43:10.3315+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Windows Settings> is <182ms>
+21:43:10.4228+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Calculator> is <205ms>
+21:43:10.5455+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Explorer> is <427ms>
+21:43:10.6141+07:00 - INFO  - Main.InitAsync - Preload programs cost <37ms>
+21:43:10.6141+07:00 - INFO  - Main.InitAsync - Number of preload win32 programs <131>
+21:43:10.6141+07:00 - INFO  - Main.InitAsync - Number of preload uwps <36>
+21:43:10.6457+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Playnite> is <313ms>
+21:43:10.7000+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Program> is <518ms>
+21:43:10.8326+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Browser Bookmarks> is <698ms>
+21:43:11.2629+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <GamesLauncher> is <1004ms>
+21:43:13.0359+07:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------
+21:43:13.0359+07:00 - INFO  - App.OnStartup - Startup cost <5078ms>
+21:43:14.4333+07:00 - INFO  - ImageLoader.InitializeAsync - Preload images cost <4551ms>
+21:43:14.4378+07:00 - INFO  - ImageLoader.InitializeAsync - Number of preload images is <150>, Images Number: 150, Unique Items 119
+22:33:36.9336+07:00 - INFO  - App.RegisterExitEvents - Session Ending
+22:35:16.2915+07:00 - INFO  - Logger.SetLogLevel - Using log level: INFO.
+22:35:16.2915+07:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+22:35:16.2952+07:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.20.2
+OS Version: 26100.4946
+IntPtr Length: 8
+x64: True
+22:35:18.0019+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+22:35:18.0278+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+22:35:18.0278+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+22:35:18.0278+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+22:35:18.3677+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 271 plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+22:35:18.3677+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json with response InternalServerError
+22:35:18.3677+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json with response InternalServerError
+22:35:18.5298+07:00 - ERROR - CommunityPluginSource.FetchAsync - Error Occurred
+EXCEPTION OCCURS: System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at void System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at async ValueTask<int> System.Net.Security.SslStream.EnsureFullTlsFrameAsync<TIOAdapter>(CancellationToken cancellationToken)
+   at async ValueTask<int> System.Net.Security.SslStream.ReadAsyncInternal<TIOAdapter>(Memory<byte> buffer, CancellationToken cancellationToken)
+   at async ValueTask<int> System.Net.Http.HttpConnection.ReadAsync(Memory<byte> destination)
+   at async ValueTask<int> System.Net.Http.HttpConnection+ContentLengthReadStream.ReadAsync(Memory<byte> buffer, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at async ValueTask<int> System.Net.Http.HttpConnection+ContentLengthReadStream.ReadAsync(Memory<byte> buffer, CancellationToken cancellationToken)
+   at async ValueTask<ReadBufferState> System.Text.Json.Serialization.ReadBufferState.ReadFromStreamAsync(Stream utf8Json, CancellationToken cancellationToken, bool fillBuffer)
+   at async ValueTask<T> System.Text.Json.Serialization.Metadata.JsonTypeInfo<T>.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at async Task<T> System.Net.Http.Json.HttpContentJsonExtensions.ReadFromJsonAsyncCore<T>(HttpContent content, Encoding sourceEncoding, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at async Task<List<UserPlugin>> Flow.Launcher.Core.ExternalPlugins.CommunityPluginSource.FetchAsync(CancellationToken token) in C:/projects/flow-launcher/Flow.Launcher.Core/ExternalPlugins/CommunityPluginSource.cs:line 57
+
+22:35:18.5298+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Plugin Indicator> is <43ms>
+22:35:18.5298+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Process Killer> is <61ms>
+22:35:18.5298+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Plugins Manager> is <148ms>
+22:35:18.5298+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <URL> is <57ms>
+22:35:18.5298+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <System Commands> is <204ms>
+22:35:18.5550+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Shell> is <139ms>
+22:35:18.5617+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Web Searches> is <117ms>
+22:35:18.5812+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Windows Settings> is <167ms>
+22:35:18.6655+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Calculator> is <184ms>
+22:35:18.6862+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Explorer> is <299ms>
+22:35:18.7572+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Playnite> is <195ms>
+22:35:18.8496+07:00 - INFO  - Main.InitAsync - Preload programs cost <29ms>
+22:35:18.8496+07:00 - INFO  - Main.InitAsync - Number of preload win32 programs <131>
+22:35:18.8496+07:00 - INFO  - Main.InitAsync - Number of preload uwps <36>
+22:35:18.9117+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Program> is <467ms>
+22:35:19.0742+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Browser Bookmarks> is <659ms>
+22:35:19.4969+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <GamesLauncher> is <984ms>
+22:35:20.8676+07:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------
+22:35:20.8676+07:00 - INFO  - App.OnStartup - Startup cost <4726ms>
+22:35:22.2563+07:00 - INFO  - ImageLoader.InitializeAsync - Preload images cost <4210ms>
+22:35:22.2563+07:00 - INFO  - ImageLoader.InitializeAsync - Number of preload images is <150>, Images Number: 150, Unique Items 119
+22:37:44.7417+07:00 - INFO  - App.RegisterExitEvents - Session Ending
+22:38:32.7974+07:00 - INFO  - Logger.SetLogLevel - Using log level: INFO.
+22:38:32.7974+07:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+22:38:32.7974+07:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.20.2
+OS Version: 26100.4946
+IntPtr Length: 8
+x64: True
+22:38:32.9171+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+22:38:32.9440+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+22:38:32.9440+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+22:38:32.9440+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+22:38:33.1548+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 271 plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+22:38:33.1548+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json with response InternalServerError
+22:38:33.1803+07:00 - ERROR - CommunityPluginSource.FetchAsync - Error Occurred
+EXCEPTION OCCURS: System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at void System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at async ValueTask<int> System.Net.Security.SslStream.EnsureFullTlsFrameAsync<TIOAdapter>(CancellationToken cancellationToken)
+   at async ValueTask<int> System.Net.Security.SslStream.ReadAsyncInternal<TIOAdapter>(Memory<byte> buffer, CancellationToken cancellationToken)
+   at async ValueTask<int> System.Net.Http.HttpConnection.ReadAsync(Memory<byte> destination)
+   at async ValueTask<int> System.Net.Http.HttpConnection+ContentLengthReadStream.ReadAsync(Memory<byte> buffer, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at async ValueTask<int> System.Net.Http.HttpConnection+ContentLengthReadStream.ReadAsync(Memory<byte> buffer, CancellationToken cancellationToken)
+   at async ValueTask<ReadBufferState> System.Text.Json.Serialization.ReadBufferState.ReadFromStreamAsync(Stream utf8Json, CancellationToken cancellationToken, bool fillBuffer)
+   at async ValueTask<T> System.Text.Json.Serialization.Metadata.JsonTypeInfo<T>.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at async Task<T> System.Net.Http.Json.HttpContentJsonExtensions.ReadFromJsonAsyncCore<T>(HttpContent content, Encoding sourceEncoding, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at async Task<List<UserPlugin>> Flow.Launcher.Core.ExternalPlugins.CommunityPluginSource.FetchAsync(CancellationToken token) in C:/projects/flow-launcher/Flow.Launcher.Core/ExternalPlugins/CommunityPluginSource.cs:line 57
+
+22:38:33.1803+07:00 - ERROR - CommunityPluginSource.FetchAsync - Error Occurred
+EXCEPTION OCCURS: System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at void System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at async ValueTask<int> System.Net.Security.SslStream.EnsureFullTlsFrameAsync<TIOAdapter>(CancellationToken cancellationToken)
+   at async ValueTask<int> System.Net.Security.SslStream.ReadAsyncInternal<TIOAdapter>(Memory<byte> buffer, CancellationToken cancellationToken)
+   at async ValueTask System.Net.Http.HttpConnection.FillAsync(bool async)
+   at async ValueTask<int> System.Net.Http.HttpConnection+ChunkedEncodingReadStream.ReadAsyncCore(Memory<byte> buffer, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at async ValueTask<int> System.Net.Http.HttpConnection+ChunkedEncodingReadStream.ReadAsyncCore(Memory<byte> buffer, CancellationToken cancellationToken)
+   at async ValueTask<ReadBufferState> System.Text.Json.Serialization.ReadBufferState.ReadFromStreamAsync(Stream utf8Json, CancellationToken cancellationToken, bool fillBuffer)
+   at async ValueTask<T> System.Text.Json.Serialization.Metadata.JsonTypeInfo<T>.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at async Task<T> System.Net.Http.Json.HttpContentJsonExtensions.ReadFromJsonAsyncCore<T>(HttpContent content, Encoding sourceEncoding, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at async Task<List<UserPlugin>> Flow.Launcher.Core.ExternalPlugins.CommunityPluginSource.FetchAsync(CancellationToken token) in C:/projects/flow-launcher/Flow.Launcher.Core/ExternalPlugins/CommunityPluginSource.cs:line 57
+
+22:38:33.1803+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Plugin Indicator> is <2ms>
+22:38:33.1803+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Process Killer> is <3ms>
+22:38:33.1803+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Plugins Manager> is <4ms>
+22:38:33.1893+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <URL> is <19ms>
+22:38:33.1893+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <System Commands> is <6ms>
+22:38:33.2017+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Shell> is <17ms>
+22:38:33.2017+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Web Searches> is <16ms>
+22:38:33.2017+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Calculator> is <35ms>
+22:38:33.2457+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Windows Settings> is <55ms>
+22:38:33.2457+07:00 - INFO  - Main.InitAsync - Preload programs cost <34ms>
+22:38:33.2457+07:00 - INFO  - Main.InitAsync - Number of preload win32 programs <131>
+22:38:33.2457+07:00 - INFO  - Main.InitAsync - Number of preload uwps <36>
+22:38:33.2647+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Explorer> is <88ms>
+22:38:33.2647+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Program> is <95ms>
+22:38:33.2930+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Browser Bookmarks> is <112ms>
+22:38:33.3177+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Playnite> is <106ms>
+22:38:33.3881+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <GamesLauncher> is <184ms>
+22:38:34.5326+07:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------
+22:38:34.5326+07:00 - INFO  - App.OnStartup - Startup cost <1812ms>
+22:38:35.7703+07:00 - INFO  - ImageLoader.InitializeAsync - Preload images cost <2806ms>
+22:38:35.7703+07:00 - INFO  - ImageLoader.InitializeAsync - Number of preload images is <150>, Images Number: 150, Unique Items 119
+22:59:32.3962+07:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:59:32.3962+07:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(Windows.Win32.Foundation.PWSTR, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+22:59:32.3962+07:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------

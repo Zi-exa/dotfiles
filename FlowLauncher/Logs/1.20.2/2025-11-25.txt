@@ -1,0 +1,53 @@
+17:31:48.4095+07:00 - INFO  - App.RegisterExitEvents - Session Ending
+17:43:32.4812+07:00 - INFO  - Logger.SetLogLevel - Using log level: INFO.
+17:43:32.4833+07:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+17:43:32.4833+07:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.20.2
+OS Version: 26100.7171
+IntPtr Length: 8
+x64: True
+17:43:34.1334+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+17:43:34.1664+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+17:43:34.1664+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+17:43:34.1664+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+17:43:34.5363+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 272 plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+17:43:34.5513+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json with response InternalServerError
+17:43:34.5513+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json with response InternalServerError
+17:43:34.8350+07:00 - ERROR - CommunityPluginSource.FetchAsync - Error Occurred
+EXCEPTION OCCURS: System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at void System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at async ValueTask<int> System.Net.Security.SslStream.EnsureFullTlsFrameAsync<TIOAdapter>(CancellationToken cancellationToken)
+   at async ValueTask<int> System.Net.Security.SslStream.ReadAsyncInternal<TIOAdapter>(Memory<byte> buffer, CancellationToken cancellationToken)
+   at async ValueTask<int> System.Net.Http.HttpConnection.ReadAsync(Memory<byte> destination)
+   at async ValueTask<int> System.Net.Http.HttpConnection+ChunkedEncodingReadStream.ReadAsyncCore(Memory<byte> buffer, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at async ValueTask<int> System.Net.Http.HttpConnection+ChunkedEncodingReadStream.ReadAsyncCore(Memory<byte> buffer, CancellationToken cancellationToken)
+   at async ValueTask<ReadBufferState> System.Text.Json.Serialization.ReadBufferState.ReadFromStreamAsync(Stream utf8Json, CancellationToken cancellationToken, bool fillBuffer)
+   at async ValueTask<T> System.Text.Json.Serialization.Metadata.JsonTypeInfo<T>.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at async Task<T> System.Net.Http.Json.HttpContentJsonExtensions.ReadFromJsonAsyncCore<T>(HttpContent content, Encoding sourceEncoding, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at async Task<List<UserPlugin>> Flow.Launcher.Core.ExternalPlugins.CommunityPluginSource.FetchAsync(CancellationToken token) in C:/projects/flow-launcher/Flow.Launcher.Core/ExternalPlugins/CommunityPluginSource.cs:line 57
+
+17:43:34.8583+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Plugin Indicator> is <40ms>
+17:43:34.8583+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Process Killer> is <79ms>
+17:43:34.8743+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Plugins Manager> is <154ms>
+17:43:34.9275+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <System Commands> is <171ms>
+17:43:34.9275+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Shell> is <162ms>
+17:43:34.9406+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <URL> is <75ms>
+17:43:34.9781+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Web Searches> is <138ms>
+17:43:34.9954+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Windows Settings> is <173ms>
+17:43:35.0422+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Explorer> is <346ms>
+17:43:35.1115+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Calculator> is <324ms>
+17:43:35.3670+07:00 - INFO  - Main.InitAsync - Preload programs cost <45ms>
+17:43:35.3670+07:00 - INFO  - Main.InitAsync - Number of preload win32 programs <146>
+17:43:35.3670+07:00 - INFO  - Main.InitAsync - Number of preload uwps <37>
+17:43:35.3982+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Playnite> is <402ms>
+17:43:35.4144+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Program> is <460ms>
+17:43:35.6233+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Browser Bookmarks> is <902ms>
+17:43:36.0203+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <GamesLauncher> is <1084ms>
+17:43:37.7167+07:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------
+17:43:37.7167+07:00 - INFO  - App.OnStartup - Startup cost <5382ms>
+17:43:40.6435+07:00 - INFO  - ImageLoader.InitializeAsync - Preload images cost <6457ms>
+17:43:40.6435+07:00 - INFO  - ImageLoader.InitializeAsync - Number of preload images is <150>, Images Number: 150, Unique Items 117

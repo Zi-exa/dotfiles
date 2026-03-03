@@ -1,0 +1,60 @@
+19:42:25.9576+07:00 - INFO  - Logger.SetLogLevel - Using log level: INFO.
+19:42:25.9576+07:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+19:42:25.9576+07:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.20.2
+OS Version: 26100.7171
+IntPtr Length: 8
+x64: True
+19:42:27.6698+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+19:42:27.7014+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+19:42:27.7014+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+19:42:27.7014+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+19:42:27.7466+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json with response InternalServerError
+19:42:27.7466+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json with response InternalServerError
+19:42:27.7466+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json with response InternalServerError
+19:42:27.7466+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json with response InternalServerError
+19:42:27.7525+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Plugin Indicator> is <41ms>
+19:42:27.7630+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Process Killer> is <72ms>
+19:42:27.7630+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+19:42:27.7630+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+19:42:27.7630+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+19:42:27.7630+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+19:42:27.7630+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <URL> is <71ms>
+19:42:27.7787+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Shell> is <133ms>
+19:42:27.7787+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <System Commands> is <138ms>
+19:42:27.8047+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Web Searches> is <121ms>
+19:42:27.8047+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Windows Settings> is <154ms>
+19:42:27.8047+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json with response InternalServerError
+19:42:27.8047+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json with response InternalServerError
+19:42:27.8047+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json with response InternalServerError
+19:42:27.8047+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json with response InternalServerError
+19:42:27.8047+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Plugins Manager> is <191ms>
+19:42:27.8879+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Calculator> is <186ms>
+19:42:27.8879+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Explorer> is <299ms>
+19:42:27.9704+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Playnite> is <165ms>
+19:42:28.1262+07:00 - INFO  - Main.InitAsync - Preload programs cost <48ms>
+19:42:28.1262+07:00 - INFO  - Main.InitAsync - Number of preload win32 programs <146>
+19:42:28.1262+07:00 - INFO  - Main.InitAsync - Number of preload uwps <37>
+19:42:28.1262+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Program> is <469ms>
+19:42:28.2447+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Browser Bookmarks> is <598ms>
+19:42:29.6459+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <GamesLauncher> is <1920ms>
+19:42:29.6869+07:00 - INFO  - Main.IndexProgramsAsync - UWPProgram index cost <1559ms>
+19:42:30.8844+07:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+19:42:30.8844+07:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(Windows.Win32.Foundation.PWSTR, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+19:42:30.8844+07:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+19:42:31.2789+07:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------
+19:42:31.2789+07:00 - INFO  - App.OnStartup - Startup cost <5471ms>
+19:42:31.7124+07:00 - INFO  - Main.IndexProgramsAsync - Win32Program index cost <3584ms>
+19:42:32.0455+07:00 - INFO  - ImageLoader.InitializeAsync - Preload images cost <5746ms>
+19:42:32.0455+07:00 - INFO  - ImageLoader.InitializeAsync - Number of preload images is <150>, Images Number: 150, Unique Items 117

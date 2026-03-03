@@ -1,0 +1,45 @@
+01:07:14.1498+07:00 - INFO  - App.RegisterExitEvents - Session Ending
+01:09:03.6592+07:00 - INFO  - Logger.SetLogLevel - Using log level: INFO.
+01:09:03.6592+07:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+01:09:03.6592+07:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.20.2
+OS Version: 26100.7171
+IntPtr Length: 8
+x64: True
+01:09:05.3488+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+01:09:05.3830+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+01:09:05.3830+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+01:09:05.3830+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+01:09:10.8744+07:00 - INFO  - ImageLoader.InitializeAsync - Preload images cost <5472ms>
+01:09:10.8744+07:00 - INFO  - ImageLoader.InitializeAsync - Number of preload images is <150>, Images Number: 150, Unique Items 117
+01:09:17.4787+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json with response InternalServerError
+01:09:17.4787+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json with response InternalServerError
+01:09:17.4787+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json with response InternalServerError
+01:09:17.4787+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json with response InternalServerError
+01:09:17.4864+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Plugin Indicator> is <52ms>
+01:09:17.4972+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Process Killer> is <73ms>
+01:09:17.4972+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+01:09:17.4972+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+01:09:17.4972+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+01:09:17.4972+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+01:09:17.4972+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <System Commands> is <145ms>
+01:09:17.4972+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <URL> is <73ms>
+01:09:17.5134+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Shell> is <135ms>
+01:09:17.5532+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Windows Settings> is <171ms>
+01:09:17.5532+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Web Searches> is <149ms>
+01:09:17.6557+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Calculator> is <223ms>
+01:09:17.6557+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Explorer> is <339ms>
+01:09:17.7582+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Playnite> is <204ms>
+01:09:17.9184+07:00 - INFO  - Main.InitAsync - Preload programs cost <31ms>
+01:09:17.9184+07:00 - INFO  - Main.InitAsync - Number of preload win32 programs <147>
+01:09:17.9184+07:00 - INFO  - Main.InitAsync - Number of preload uwps <37>
+01:09:17.9808+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Program> is <590ms>
+01:09:18.0723+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Browser Bookmarks> is <701ms>
+01:09:18.6888+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <GamesLauncher> is <1223ms>
+01:09:19.0458+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 272 plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+01:09:19.0458+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json with response InternalServerError
+01:09:19.0458+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json with response InternalServerError
+01:09:19.0458+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json with response InternalServerError
+01:09:19.0458+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Plugins Manager> is <1695ms>
+01:09:20.6605+07:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------
+01:09:20.6605+07:00 - INFO  - App.OnStartup - Startup cost <17159ms>

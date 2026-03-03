@@ -1,0 +1,99 @@
+06:35:04.3048+07:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+06:35:04.3048+07:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(Windows.Win32.Foundation.PWSTR, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+06:35:04.3048+07:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+06:41:44.9363+07:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+06:41:44.9363+07:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(Windows.Win32.Foundation.PWSTR, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+06:41:44.9363+07:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:19:51.6541+07:00 - INFO  - App.RegisterExitEvents - Session Ending
+18:30:46.5148+07:00 - INFO  - Logger.SetLogLevel - Using log level: INFO.
+18:30:46.5148+07:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+18:30:46.5148+07:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.20.2
+OS Version: 26100.4652
+IntPtr Length: 8
+x64: True
+18:30:48.1983+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+18:30:48.2242+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+18:30:48.2242+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+18:30:48.2242+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+18:30:49.0312+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 265 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+18:30:49.0473+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json with response InternalServerError
+18:30:49.0473+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json with response InternalServerError
+18:30:49.4095+07:00 - ERROR - CommunityPluginSource.FetchAsync - Error Occurred
+EXCEPTION OCCURS: System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+   at void System.Net.Http.CancellationHelper.ThrowOperationCanceledException(Exception innerException, CancellationToken cancellationToken)
+   at async ValueTask<int> System.Net.Http.HttpConnection+ContentLengthReadStream.ReadAsync(Memory<byte> buffer, CancellationToken cancellationToken)
+   at async ValueTask<ReadBufferState> System.Text.Json.Serialization.ReadBufferState.ReadFromStreamAsync(Stream utf8Json, CancellationToken cancellationToken, bool fillBuffer)
+   at async ValueTask<T> System.Text.Json.Serialization.Metadata.JsonTypeInfo<T>.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at async Task<T> System.Net.Http.Json.HttpContentJsonExtensions.ReadFromJsonAsyncCore<T>(HttpContent content, Encoding sourceEncoding, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at async Task<List<UserPlugin>> Flow.Launcher.Core.ExternalPlugins.CommunityPluginSource.FetchAsync(CancellationToken token) in C:/projects/flow-launcher/Flow.Launcher.Core/ExternalPlugins/CommunityPluginSource.cs:line 57
+
+18:30:49.4095+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Plugin Indicator> is <41ms>
+18:30:49.4095+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Process Killer> is <60ms>
+18:30:49.4095+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Plugins Manager> is <150ms>
+18:30:49.4277+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <System Commands> is <118ms>
+18:30:49.4277+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Shell> is <130ms>
+18:30:49.4419+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <URL> is <59ms>
+18:30:49.4652+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Web Searches> is <132ms>
+18:30:49.4804+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Windows Settings> is <159ms>
+18:30:49.5232+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Explorer> is <241ms>
+18:30:49.5380+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Calculator> is <180ms>
+18:30:49.5548+07:00 - INFO  - Main.InitAsync - Preload programs cost <10ms>
+18:30:49.5548+07:00 - INFO  - Main.InitAsync - Number of preload win32 programs <96>
+18:30:49.5548+07:00 - INFO  - Main.InitAsync - Number of preload uwps <35>
+18:30:49.6159+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Program> is <345ms>
+18:30:49.7933+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Browser Bookmarks> is <531ms>
+18:30:51.3330+07:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------
+18:30:51.3330+07:00 - INFO  - App.OnStartup - Startup cost <4962ms>
+18:30:51.9684+07:00 - INFO  - ImageLoader.InitializeAsync - Preload images cost <3724ms>
+18:30:51.9684+07:00 - INFO  - ImageLoader.InitializeAsync - Number of preload images is <150>, Images Number: 150, Unique Items 122
+18:45:30.4763+07:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+18:45:30.4763+07:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(Windows.Win32.Foundation.PWSTR, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+18:45:30.4763+07:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+18:45:49.3498+07:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+18:45:49.3498+07:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(Windows.Win32.Foundation.PWSTR, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+18:45:49.3498+07:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------

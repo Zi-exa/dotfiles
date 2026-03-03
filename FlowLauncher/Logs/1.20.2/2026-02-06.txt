@@ -1,0 +1,53 @@
+18:04:17.3847+07:00 - INFO  - Logger.SetLogLevel - Using log level: INFO.
+18:04:17.3961+07:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+18:04:17.3961+07:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.20.2
+OS Version: 26100.7462
+IntPtr Length: 8
+x64: True
+18:04:20.8855+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+18:04:20.9193+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+18:04:20.9193+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+18:04:20.9193+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+18:04:22.4196+07:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 272 plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+18:04:22.4253+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json with response InternalServerError
+18:04:22.4253+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json with response InternalServerError
+18:04:22.4253+07:00 - WARN  - CommunityPluginSource.FetchAsync - Failed to load resource https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json with response InternalServerError
+18:04:22.4253+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Plugin Indicator> is <46ms>
+18:04:22.4432+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Process Killer> is <89ms>
+18:04:22.4432+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Plugins Manager> is <172ms>
+18:04:22.4809+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <System Commands> is <186ms>
+18:04:22.4809+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Shell> is <166ms>
+18:04:22.4938+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <URL> is <82ms>
+18:04:22.5253+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Web Searches> is <168ms>
+18:04:22.5419+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Windows Settings> is <226ms>
+18:04:22.5912+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Explorer> is <336ms>
+18:04:22.6131+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Calculator> is <237ms>
+18:04:22.8134+07:00 - INFO  - Main.InitAsync - Preload programs cost <40ms>
+18:04:22.8134+07:00 - INFO  - Main.InitAsync - Number of preload win32 programs <152>
+18:04:22.8134+07:00 - INFO  - Main.InitAsync - Number of preload uwps <38>
+18:04:22.8134+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Program> is <481ms>
+18:04:22.8278+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Playnite> is <285ms>
+18:04:23.0293+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <Browser Bookmarks> is <746ms>
+18:04:23.7586+07:00 - INFO  - Main.IndexProgramsAsync - UWPProgram index cost <943ms>
+18:04:24.1931+07:00 - INFO  - PluginManager.InitializePluginsAsync - Total init cost for <GamesLauncher> is <1717ms>
+18:04:25.6022+07:00 - INFO  - ImageLoader.InitializeAsync - Preload images cost <6364ms>
+18:04:25.6022+07:00 - INFO  - ImageLoader.InitializeAsync - Number of preload images is <150>, Images Number: 150, Unique Items 112
+18:04:25.7183+07:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+18:04:25.7185+07:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(Windows.Win32.Foundation.PWSTR, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+18:04:25.7185+07:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+18:04:25.8815+07:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------
+18:04:25.8815+07:00 - INFO  - App.OnStartup - Startup cost <9003ms>
+18:04:26.6073+07:00 - INFO  - Main.IndexProgramsAsync - Win32Program index cost <3792ms>
+18:10:00.9797+07:00 - INFO  - App.RegisterExitEvents - Session Ending
