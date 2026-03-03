@@ -10,7 +10,7 @@ My personal dotfiles for Windows 11 setup.
 
 ![Desktop Setup](ss/screenshot.png)
 
-### � [VS Code Island Catppuccin Mocha Config →](https://github.com/Zi-exa/vscode-island-catputtcin-mocca)
+### �️ [VS Code Island Catppuccin Mocha Config →](https://github.com/Zi-exa/vscode-island-catputtcin-mocca)
 
 ![VS Code Island Catppuccin Mocha](ss/vscode-island-catputtcin-mocca.png)
 
@@ -46,9 +46,7 @@ My personal dotfiles for Windows 11 setup.
 .config/
 ├── cava/          # Audio visualizer config
 ├── fastfetch/     # System info tool config
-├── FlowLauncher/  # Flow Launcher config
 ├── komorebi/      # Tiling WM config
-├── pwsh/          # PowerShell (Windows Terminal) config
 ├── spotify-tui/   # Spotify TUI config
 ├── starship/      # Starship prompt config
 ├── winfetch/      # Winfetch config

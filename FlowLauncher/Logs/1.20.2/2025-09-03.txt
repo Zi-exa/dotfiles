@@ -1,2 +1,0 @@
-11:00:35.0616+07:00 - WARN  - JsonRPCPlugin.ExecuteAsync - Empty JSON-RPC Response.
-13:21:53.8600+07:00 - INFO  - App.RegisterExitEvents - Session Ending
