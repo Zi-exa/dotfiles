@@ -6,6 +6,10 @@ My personal dotfiles for Windows 11 setup.
 
 ![Desktop Setup](ss/screenshot.png)
 
+### 🌙 [Zen Browser Config →](https://github.com/Zi-exa/zen-browser)
+
+![Zen Browser](ss/zen-browser.png)
+
 ## ⚙️ What's Included
 
 | Tool | Description |
