@@ -25,6 +25,7 @@ My personal dotfiles for Windows 11 setup.
 |------|-------------|
 | **Starship** | Cross-shell prompt customization |
 | **Komorebi** | Tiling window manager for Windows |
+| **PowerShell** | Custom Windows Terminal & pwsh config |
 | **YASB** | Yet Another Status Bar |
 | **Fastfetch** | System information tool |
 | **FlowLauncher** | Quick app launcher and search utility |
