@@ -4,7 +4,7 @@ My personal dotfiles for Windows 11 setup.
 
 ## 🎬 Preview
 
-![Rice Preview](ss/rice-preview.mp4)
+https://github.com/Zi-exa/dotfiles/raw/master/ss/rice-preview.mp4
 
 ## 📸 Screenshot
 
