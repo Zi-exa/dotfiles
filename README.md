@@ -27,6 +27,7 @@ My personal dotfiles for Windows 11 setup.
 | **Komorebi** | Tiling window manager for Windows |
 | **YASB** | Yet Another Status Bar |
 | **Fastfetch** | System information tool |
+| **FlowLauncher** | Quick app launcher and search utility |
 | **WHKD** | Windows hotkey daemon |
 | **Winfetch** | Windows system info script |
 | **CAVA** | Console-based audio visualizer |
@@ -46,7 +47,7 @@ My personal dotfiles for Windows 11 setup.
 .config/
 ├── cava/          # Audio visualizer config
 ├── fastfetch/     # System info tool config
-├── Flowlauncher/  # Flow Launcher config & themes
+├── Flowlauncher/  # Flow Launcher themes
 ├── komorebi/      # Tiling WM config
 ├── pwsh/          # PowerShell (Windows Terminal) config
 ├── spotify-tui/   # Spotify TUI config
