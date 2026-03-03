@@ -1421,3 +1421,6 @@
 2026-03-04 00:20:11,665 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
 2026-03-04 00:20:18,106 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 460766
 2026-03-04 00:27:53,869 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-04 00:27:53.869214
+2026-03-04 00:37:53,998 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-04 00:37:53.998701
+2026-03-04 00:47:54,038 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-04 00:47:54.038477
+2026-03-04 00:57:53,672 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-04 00:57:53.672340

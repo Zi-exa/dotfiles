@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🖥️ Dotfiles
 
 My personal dotfiles for Windows 11 setup.
@@ -34,8 +35,6 @@ My personal dotfiles for Windows 11 setup.
 ├── cava/          # Audio visualizer config
 ├── fastfetch/     # System info tool config
 ├── komorebi/      # Tiling WM config
-├── opencode/      # OpenCode config
-├── scoop/         # Scoop package manager
 ├── spotify-tui/   # Spotify TUI config
 ├── starship/      # Starship prompt config
 ├── winfetch/      # Winfetch config
@@ -53,3 +52,6 @@ Clone the repo to your `.config` directory:
 ```powershell
 git clone https://github.com/Zi-exa/dotfiles.git $HOME/.config
 ```
+=======
+dotfiles win 11
+>>>>>>> 3a1d026f4a848b701e1d9934a2c1cf26f7e67e61
