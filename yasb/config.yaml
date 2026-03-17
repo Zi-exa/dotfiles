@@ -5,6 +5,7 @@ komorebi:
   start_command: "komorebic start --whkd"
   stop_command: "komorebic stop --whkd"
   reload_command: "komorebic reload-configuration"
+
 bars:
   Primary-bar:
     enabled: true
@@ -179,6 +180,10 @@ widgets:
         - "\uf027" # Icon for 11-30% volume
         - "\uf027" # Icon for 31-60% volume
         - "\uf028" # Icon for 61-100% volume
+      keybindings:
+        - keys: "alt+v"
+          action: "toggle_menu"
+
       audio_menu:
         blur: true
         round_corners: True
@@ -329,6 +334,17 @@ widgets:
       show_battery: false
       show_volume: false
       show_network: false
+      show_in_popup: true
+      icons_per_row: 4
+      popup:
+        blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: None
+        alignment: "center"
+        direction: "down"
+        offset_top: 6
+        offset_left: 0
   wallpapers:
     type: "yasb.wallpapers.WallpapersWidget"
     options:
@@ -372,18 +388,27 @@ widgets:
     type: "yasb.power_menu.PowerMenuWidget"
     options:
       label: ""
-      uptime: True
-      blur: False
-      blur_background: True
-      animation_duration: 300 # Milliseconds
-      button_row: 5 # Number of buttons in a row, min 1 max 5
+      uptime: true
+      show_user: true
+      blur: false
+      blur_background: true
+      animation_duration: 120 # Milliseconds
+      button_row: 3 # Number of buttons in a row, min 1 max 6
+      profile_image_size: 80 # Avatar size in pixels
       buttons:
-        sleep: ["󰤄", "Sleep"]
-        signout: ["\udb80\udf43", "Sign out"]
-        shutdown: ["", "Shut Down"]
         restart: ["\uead2", "Restart"]
+        shutdown: ["\uf011", "Shut Down"]
+        signout: ["\udb80\udf43", "Sign out"]
         hibernate: ["\uf28e", "Hibernate"]
+        lock: ["\uea75", "Lock"]
         cancel: ["\udb81\udf3a", "Cancel"]
+      label_shadow:
+        enabled: false
+        color: "black"
+        radius: 3
+        offset: [ 1, 1 ]
+  
+
   cava:
     type: "yasb.cava.CavaWidget"
     options:
@@ -458,9 +483,14 @@ widgets:
         cloudyNight: "\ue311"
         rainyDay: "\udb81\ude7e"
         rainyNight: "\udb81\ude7e"
-        snowyIcyDay: "\udb81\udd98"
-        snowyIcyNight: "\udb81\udd98"
-        blizzard: "\uebaa"
+        snowyDay: "\udb81\udd98"
+        snowyNight: "\udb81\udd98"
+        blizzardDay: "\uebaa"
+        blizzardNight: "\uebaa"
+        foggyDay: "\ue303"
+        foggyNight: "\ue346"
+        thunderstormDay: "\ue30f"
+        thunderstormNight: "\ue338"
         default: "\uebaa"
       weather_card: 
         blur: true
